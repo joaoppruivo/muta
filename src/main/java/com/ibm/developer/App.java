@@ -15,9 +15,9 @@ public class App {
         while (true) { 
             Socket s = ss.accept(); 
             s.getOutputStream() 
-                    .write(("HTTP/1.1 200 OK\nContent-Type:
-text/html; charset=utf-8\nContent-Length: 2\n\n" +
-veryComplicatedMethod()) .getBytes()); 
+            .write(("HTTP/1.1 200 OK\nContent-Type:
+                text/html; charset=utf-8\nContent-Length: 2\n\n" +
+                veryComplicatedMethod()).getBytes()); 
         } 
     } 
 
